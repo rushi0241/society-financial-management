@@ -7,6 +7,7 @@ import "./MaintenanceList.scss";
 import { Table } from "react-bootstrap";
 import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import ExportButton from "./ExportButton";
 interface Props {
   searchTerm: string;
 }
@@ -121,62 +122,69 @@ const MaintenanceList = ({ searchTerm }: Props) => {
       {filteredRecords.length === 0 ? (
         <p className="text-muted">No records found for this month.</p>
       ) : (
-        <Table bordered striped hover>
-          <thead
-            style={{ position: "sticky", top: 0, backgroundColor: "#f8f9fa" }}
-          >
-            <tr>
-              <th style={{ width: "70px", textAlign: "center" }}>Sr. No.</th>
-              <th>Name</th>
-              <th>Apartment</th>
-              <th>Due Date</th>
-              <th>Paid On</th>
-              <th>Amount</th>
-              <th>Fine</th>
-              <th>Reminder Date</th>
-              <th>Status</th>
-            </tr>
-          </thead>
-          <tbody>
-            {filteredRecords.map((r, i) => (
-              <tr key={`${r.familyId}-${r.month}`}>
-                <td className="text-center">{i + 1}</td>
-                <td>{r.familyName}</td>
-                <td>{r.apartment}</td>
-                <td>{formatDueDate(r.dueDate)}</td>
-                <td>{formatDueDate(r.paidOn)}</td>
-                <td>₹{r.amountPaid.toLocaleString("en-IN")}</td>
-                <td>₹{r.fine.toLocaleString("en-IN")}</td>
-                <td>{r.reminderDate ? formatDueDate(r.reminderDate) : "-"}</td>
-                <td>
-                  <div className="reminder-container">
-                    <span className={`status ${getStatus(r).toLowerCase()}`}>
-                      {getStatus(r)}
-                    </span>
-                    {getStatus(r) === "Late" && (
-                      <span
-                        title="Send Reminder"
-                        onClick={
-                          r.reminderDate
-                            ? undefined
-                            : () => handleSendReminders(r)
-                        }
-                        style={{
-                          cursor: r.reminderDate ? "not-allowed" : "pointer",
-                          opacity: r.reminderDate ? 0.5 : 1,
-                          pointerEvents: r.reminderDate ? "none" : "auto",
-                        }}
-                        aria-disabled={!!r.reminderDate}
-                      >
-                        <i className="bi bi-stopwatch"></i>
-                      </span>
-                    )}
-                  </div>
-                </td>
+        <>
+          <div className="d-flex justify-content-end align-items-center mb-3">
+            <ExportButton />
+          </div>
+          <Table bordered striped hover>
+            <thead
+              style={{ position: "sticky", top: 0, backgroundColor: "#f8f9fa" }}
+            >
+              <tr>
+                <th style={{ width: "70px", textAlign: "center" }}>Sr. No.</th>
+                <th>Name</th>
+                <th>Apartment</th>
+                <th>Due Date</th>
+                <th>Paid On</th>
+                <th>Amount</th>
+                <th>Fine</th>
+                <th>Reminder Date</th>
+                <th>Status</th>
               </tr>
-            ))}
-          </tbody>
-        </Table>
+            </thead>
+            <tbody>
+              {filteredRecords.map((r, i) => (
+                <tr key={`${r.familyId}-${r.month}`}>
+                  <td className="text-center">{i + 1}</td>
+                  <td>{r.familyName}</td>
+                  <td>{r.apartment}</td>
+                  <td>{formatDueDate(r.dueDate)}</td>
+                  <td>{formatDueDate(r.paidOn)}</td>
+                  <td>₹{r.amountPaid.toLocaleString("en-IN")}</td>
+                  <td>₹{r.fine.toLocaleString("en-IN")}</td>
+                  <td>
+                    {r.reminderDate ? formatDueDate(r.reminderDate) : "-"}
+                  </td>
+                  <td>
+                    <div className="reminder-container">
+                      <span className={`status ${getStatus(r).toLowerCase()}`}>
+                        {getStatus(r)}
+                      </span>
+                      {getStatus(r) === "Late" && (
+                        <span
+                          title="Send Reminder"
+                          onClick={
+                            r.reminderDate
+                              ? undefined
+                              : () => handleSendReminders(r)
+                          }
+                          style={{
+                            cursor: r.reminderDate ? "not-allowed" : "pointer",
+                            opacity: r.reminderDate ? 0.5 : 1,
+                            pointerEvents: r.reminderDate ? "none" : "auto",
+                          }}
+                          aria-disabled={!!r.reminderDate}
+                        >
+                          <i className="bi bi-stopwatch"></i>
+                        </span>
+                      )}
+                    </div>
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </Table>
+        </>
       )}
     </>
   );
