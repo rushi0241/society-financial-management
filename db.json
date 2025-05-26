@@ -1,0 +1,578 @@
+{
+  "families_with_maintenance": [
+    {
+      "id": 1,
+      "name": "Rishikesh Sarje",
+      "apartment": "A-101",
+      "members": 4,
+      "maintenanceRecords": [
+        {
+          "month": "2025-01",
+          "amountPaid": 2000,
+          "dueDate": "2025-01-10",
+          "paidOn": "2025-01-09",
+          "fine": 0
+        },
+        {
+          "month": "2025-02",
+          "amountPaid": 2000,
+          "dueDate": "2025-02-10",
+          "paidOn": "2025-02-08",
+          "fine": 0
+        },
+        {
+          "month": "2025-03",
+          "amountPaid": 2000,
+          "dueDate": "2025-03-10",
+          "paidOn": null,
+          "fine": 100
+        },
+        {
+          "month": "2025-04",
+          "amountPaid": 2000,
+          "dueDate": "2025-04-10",
+          "paidOn": "2025-04-09",
+          "fine": 0
+        },
+        {
+          "month": "2025-05",
+          "amountPaid": 2000,
+          "dueDate": "2025-05-10",
+          "paidOn": null,
+          "fine": 100
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Priya Reddy",
+      "apartment": "B-102",
+      "members": 3,
+      "maintenanceRecords": [
+        {
+          "month": "2025-01",
+          "amountPaid": 2000,
+          "dueDate": "2025-01-10",
+          "paidOn": null,
+          "fine": 100
+        },
+        {
+          "month": "2025-02",
+          "amountPaid": 2000,
+          "dueDate": "2025-02-10",
+          "paidOn": null,
+          "fine": 100
+        },
+        {
+          "month": "2025-03",
+          "amountPaid": 2000,
+          "dueDate": "2025-03-10",
+          "paidOn": "2025-03-01",
+          "fine": 0
+        },
+        {
+          "month": "2025-04",
+          "amountPaid": 2000,
+          "dueDate": "2025-04-10",
+          "paidOn": "2025-04-08",
+          "fine": 0
+        },
+        {
+          "month": "2025-05",
+          "amountPaid": 2000,
+          "dueDate": "2025-05-10",
+          "paidOn": "2025-05-01",
+          "fine": 0
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Amit Mehta",
+      "apartment": "C-103",
+      "members": 2,
+      "maintenanceRecords": [
+        {
+          "month": "2025-01",
+          "amountPaid": 2000,
+          "dueDate": "2025-01-10",
+          "paidOn": "2025-01-05",
+          "fine": 0
+        },
+        {
+          "month": "2025-02",
+          "amountPaid": 2000,
+          "dueDate": "2025-02-10",
+          "paidOn": "2025-02-07",
+          "fine": 0
+        },
+        {
+          "month": "2025-03",
+          "amountPaid": 2000,
+          "dueDate": "2025-03-10",
+          "paidOn": "2025-03-09",
+          "fine": 0
+        },
+        {
+          "month": "2025-04",
+          "amountPaid": 2000,
+          "dueDate": "2025-04-10",
+          "paidOn": "2025-04-08",
+          "fine": 0
+        },
+        {
+          "month": "2025-05",
+          "amountPaid": 2000,
+          "dueDate": "2025-05-10",
+          "paidOn": null,
+          "fine": 100
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Sneha Joshi",
+      "apartment": "D-104",
+      "members": 5,
+      "maintenanceRecords": [
+        {
+          "month": "2025-01",
+          "amountPaid": 2000,
+          "dueDate": "2025-01-10",
+          "paidOn": "2025-01-04",
+          "fine": 0
+        },
+        {
+          "month": "2025-02",
+          "amountPaid": 2000,
+          "dueDate": "2025-02-10",
+          "paidOn": "2025-02-10",
+          "fine": 0
+        },
+        {
+          "month": "2025-03",
+          "amountPaid": 2000,
+          "dueDate": "2025-03-10",
+          "paidOn": "2025-03-02",
+          "fine": 0
+        },
+        {
+          "month": "2025-04",
+          "amountPaid": 2000,
+          "dueDate": "2025-04-10",
+          "paidOn": "2025-04-07",
+          "fine": 0
+        },
+        {
+          "month": "2025-05",
+          "amountPaid": 2000,
+          "dueDate": "2025-05-10",
+          "paidOn": "2025-05-06",
+          "fine": 0
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Arjun Sharma",
+      "apartment": "E-105",
+      "members": 4,
+      "maintenanceRecords": [
+        {
+          "month": "2025-01",
+          "amountPaid": 2000,
+          "dueDate": "2025-01-10",
+          "paidOn": null,
+          "fine": 100
+        },
+        {
+          "month": "2025-02",
+          "amountPaid": 2000,
+          "dueDate": "2025-02-10",
+          "paidOn": "2025-02-05",
+          "fine": 0
+        },
+        {
+          "month": "2025-03",
+          "amountPaid": 2000,
+          "dueDate": "2025-03-10",
+          "paidOn": "2025-03-10",
+          "fine": 0
+        },
+        {
+          "month": "2025-04",
+          "amountPaid": 2000,
+          "dueDate": "2025-04-10",
+          "paidOn": "2025-03-31",
+          "fine": 0
+        },
+        {
+          "month": "2025-05",
+          "amountPaid": 2000,
+          "dueDate": "2025-05-10",
+          "paidOn": "2025-04-30",
+          "fine": 0
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Meera Desai",
+      "apartment": "F-106",
+      "members": 3,
+      "maintenanceRecords": [
+        {
+          "month": "2025-01",
+          "amountPaid": 2000,
+          "dueDate": "2025-01-10",
+          "paidOn": "2025-01-05",
+          "fine": 0
+        },
+        {
+          "month": "2025-02",
+          "amountPaid": 2000,
+          "dueDate": "2025-02-10",
+          "paidOn": "2025-02-04",
+          "fine": 0
+        },
+        {
+          "month": "2025-03",
+          "amountPaid": 2000,
+          "dueDate": "2025-03-10",
+          "paidOn": "2025-03-07",
+          "fine": 0
+        },
+        {
+          "month": "2025-04",
+          "amountPaid": 2000,
+          "dueDate": "2025-04-10",
+          "paidOn": "2025-04-05",
+          "fine": 0
+        },
+        {
+          "month": "2025-05",
+          "amountPaid": 2000,
+          "dueDate": "2025-05-10",
+          "paidOn": null,
+          "fine": 100
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Karan Yadav",
+      "apartment": "G-107",
+      "members": 6,
+      "maintenanceRecords": [
+        {
+          "month": "2025-01",
+          "amountPaid": 2000,
+          "dueDate": "2025-01-10",
+          "paidOn": "2025-01-02",
+          "fine": 0
+        },
+        {
+          "month": "2025-02",
+          "amountPaid": 2000,
+          "dueDate": "2025-02-10",
+          "paidOn": "2025-02-03",
+          "fine": 0
+        },
+        {
+          "month": "2025-03",
+          "amountPaid": 2000,
+          "dueDate": "2025-03-10",
+          "paidOn": "2025-03-09",
+          "fine": 0
+        },
+        {
+          "month": "2025-04",
+          "amountPaid": 2000,
+          "dueDate": "2025-04-10",
+          "paidOn": "2025-03-31",
+          "fine": 0
+        },
+        {
+          "month": "2025-05",
+          "amountPaid": 2000,
+          "dueDate": "2025-05-10",
+          "paidOn": "2025-05-01",
+          "fine": 0
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Anjali Singh",
+      "apartment": "H-108",
+      "members": 2,
+      "maintenanceRecords": [
+        {
+          "month": "2025-01",
+          "amountPaid": 2000,
+          "dueDate": "2025-01-10",
+          "paidOn": null,
+          "fine": 100
+        },
+        {
+          "month": "2025-02",
+          "amountPaid": 2000,
+          "dueDate": "2025-02-10",
+          "paidOn": null,
+          "fine": 100
+        },
+        {
+          "month": "2025-03",
+          "amountPaid": 2000,
+          "dueDate": "2025-03-10",
+          "paidOn": "2025-03-05",
+          "fine": 0
+        },
+        {
+          "month": "2025-04",
+          "amountPaid": 2000,
+          "dueDate": "2025-04-10",
+          "paidOn": "2025-04-05",
+          "fine": 0
+        },
+        {
+          "month": "2025-05",
+          "amountPaid": 2000,
+          "dueDate": "2025-05-10",
+          "paidOn": "2025-05-10",
+          "fine": 0
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Vikram Rao",
+      "apartment": "I-109",
+      "members": 3,
+      "maintenanceRecords": [
+        {
+          "month": "2025-01",
+          "amountPaid": 2000,
+          "dueDate": "2025-01-10",
+          "paidOn": "2025-01-01",
+          "fine": 0
+        },
+        {
+          "month": "2025-02",
+          "amountPaid": 2000,
+          "dueDate": "2025-02-10",
+          "paidOn": "2025-02-07",
+          "fine": 0
+        },
+        {
+          "month": "2025-03",
+          "amountPaid": 2000,
+          "dueDate": "2025-03-10",
+          "paidOn": "2025-03-09",
+          "fine": 0
+        },
+        {
+          "month": "2025-04",
+          "amountPaid": 2000,
+          "dueDate": "2025-04-10",
+          "paidOn": "2025-04-06",
+          "fine": 0
+        },
+        {
+          "month": "2025-05",
+          "amountPaid": 2000,
+          "dueDate": "2025-05-10",
+          "paidOn": null,
+          "fine": 100
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Divya Kapoor",
+      "apartment": "J-110",
+      "members": 5,
+      "maintenanceRecords": [
+        {
+          "month": "2025-01",
+          "amountPaid": 2000,
+          "dueDate": "2025-01-10",
+          "paidOn": "2025-01-09",
+          "fine": 0
+        },
+        {
+          "month": "2025-02",
+          "amountPaid": 2000,
+          "dueDate": "2025-02-10",
+          "paidOn": "2025-01-31",
+          "fine": 0
+        },
+        {
+          "month": "2025-03",
+          "amountPaid": 2000,
+          "dueDate": "2025-03-10",
+          "paidOn": "2025-03-05",
+          "fine": 0
+        },
+        {
+          "month": "2025-04",
+          "amountPaid": 2000,
+          "dueDate": "2025-04-10",
+          "paidOn": "2025-04-05",
+          "fine": 0
+        },
+        {
+          "month": "2025-05",
+          "amountPaid": 2000,
+          "dueDate": "2025-05-10",
+          "paidOn": "2025-05-02",
+          "fine": 0
+        }
+      ]
+    }
+  ],
+  "maintenance": [
+    {
+      "id": 1,
+      "familyId": 1,
+      "familyName": "Amit Sharma",
+      "month": "2025-04",
+      "amountPaid": 2000,
+      "dueDate": "2025-04-10",
+      "paidOn": "2025-04-09",
+      "fine": 0
+    },
+    {
+      "id": 2,
+      "familyId": 2,
+      "familyName": "Pooja Patel",
+      "month": "2025-04",
+      "amountPaid": 2000,
+      "dueDate": "2025-04-10",
+      "paidOn": null,
+      "fine": 100
+    }
+  ],
+  "reminder": [
+    {
+      "familyId": 1,
+      "familyName": "Sharma",
+      "month": "2025-05",
+      "dueDate": "2025-05-10",
+      "paidOn": null,
+      "reminderSent": false,
+      "reminderDate": null,
+      "apartment": "A101",
+      "amountPaid": 0,
+      "fine": 100
+    },
+    {
+      "familyId": 2,
+      "familyName": "Patel",
+      "month": "2025-05",
+      "dueDate": "2025-05-10",
+      "paidOn": "2025-05-08",
+      "reminderSent": false,
+      "reminderDate": null,
+      "apartment": "A102",
+      "amountPaid": 2000,
+      "fine": 0
+    },
+    {
+      "familyId": 3,
+      "familyName": "Verma",
+      "month": "2025-05",
+      "dueDate": "2025-05-10",
+      "paidOn": null,
+      "reminderSent": true,
+      "reminderDate": "2025-05-11T09:30:00.000Z",
+      "apartment": "A103",
+      "amountPaid": 0,
+      "fine": 50
+    },
+    {
+      "familyId": 4,
+      "familyName": "Rao",
+      "month": "2025-05",
+      "dueDate": "2025-05-10",
+      "paidOn": "2025-05-05",
+      "reminderSent": false,
+      "reminderDate": null,
+      "apartment": "A104",
+      "amountPaid": 2000,
+      "fine": 0
+    },
+    {
+      "familyId": 5,
+      "familyName": "Nair",
+      "month": "2025-05",
+      "dueDate": "2025-05-10",
+      "paidOn": null,
+      "reminderSent": false,
+      "reminderDate": null,
+      "apartment": "A105",
+      "amountPaid": 0,
+      "fine": 150
+    },
+    {
+      "familyId": 6,
+      "familyName": "Kumar",
+      "month": "2025-05",
+      "dueDate": "2025-05-10",
+      "paidOn": "2025-05-07",
+      "reminderSent": false,
+      "reminderDate": null,
+      "apartment": "A106",
+      "amountPaid": 2000,
+      "fine": 0
+    },
+    {
+      "familyId": 7,
+      "familyName": "Mishra",
+      "month": "2025-05",
+      "dueDate": "2025-05-10",
+      "paidOn": null,
+      "reminderSent": true,
+      "reminderDate": "2025-05-12T11:00:00.000Z",
+      "apartment": "A107",
+      "amountPaid": 0,
+      "fine": 200
+    },
+    {
+      "familyId": 8,
+      "familyName": "Das",
+      "month": "2025-05",
+      "dueDate": "2025-05-10",
+      "paidOn": "2025-05-09",
+      "reminderSent": false,
+      "reminderDate": null,
+      "apartment": "A108",
+      "amountPaid": 2000,
+      "fine": 0
+    },
+    {
+      "familyId": 9,
+      "familyName": "Bose",
+      "month": "2025-05",
+      "dueDate": "2025-05-10",
+      "paidOn": null,
+      "reminderSent": false,
+      "reminderDate": null,
+      "apartment": "A109",
+      "amountPaid": 0,
+      "fine": 100
+    },
+    {
+      "familyId": 10,
+      "familyName": "Gupta",
+      "month": "2025-05",
+      "dueDate": "2025-05-10",
+      "paidOn": "2025-05-06",
+      "reminderSent": false,
+      "reminderDate": null,
+      "apartment": "A110",
+      "amountPaid": 2000,
+      "fine": 0
+    }
+  ]
+}

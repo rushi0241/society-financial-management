@@ -1,0 +1,74 @@
+.LoginForm {
+  text-align: center;
+  width: 100%;
+  display: grid;
+  /* place-content: center; */
+  padding: 5rem;
+  h1 {
+    color: #0b5ed7;
+    margin: 0;
+    display: grid;
+    place-items: center;
+  }
+  form {
+    /* text-align: center; */
+    display: grid;
+    /* grid-template-columns: repeat(2, auto); */
+    /* gap: 15px; */
+    border: #f0f0f0 1px solid;
+    padding: 20px 35px;
+    border-radius: 10px;
+    align-items: center;
+    /* box-shadow: -2px 1px 21px 0px rgba(0, 0, 0, 0.19);
+    -webkit-box-shadow: -2px 1px 21px 0px rgba(0, 0, 0, 0.19);
+    -moz-box-shadow: -2px 1px 21px 0px rgba(0, 0, 0, 0.19); */
+    .form-label {
+      margin: 0;
+    }
+    h2 {
+      grid-column: 1 / -1;
+      margin: 0;
+    }
+    .error-message {
+      grid-column: 1 / -1;
+      color: red;
+    }
+    input {
+      border: #f0f0f0 1px solid;
+      border-radius: 10px;
+      padding: 10px;
+      width: 100%;
+      &:focus {
+        outline: none;
+      }
+    }
+    .password-container {
+      position: relative;
+      span {
+        position: absolute;
+        top: 50%;
+        right: 5px;
+        transform: translateY(-50%);
+        cursor: pointer;
+      }
+    }
+    button {
+      grid-column: 1 / -1;
+      color: white;
+      border-radius: 10px;
+      &:hover,
+      &:focus {
+        outline: none;
+        border: 1px solid transparent;
+      }
+    }
+
+    @media (max-width: 768px) {
+      gap: 15px;
+    }
+  }
+  @media (max-width: 768px) {
+    place-content: unset;
+    padding: 1rem;
+  }
+}

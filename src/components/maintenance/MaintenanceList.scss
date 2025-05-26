@@ -1,0 +1,31 @@
+.reminder-container {
+  display: grid;
+  gap: 5px;
+  align-items: center;
+  grid-template-columns: 3.5fr 1fr;
+
+  @media screen and (max-width: 768px) {
+    grid-template-columns: 1fr 1fr;
+  }
+  .status {
+    display: inline-block;
+    border-radius: 10px;
+    text-align: center;
+    width: 80px;
+    @media screen and (max-width: 768px) {
+      width: 50px;
+    }
+    &.paid {
+      background: green;
+      color: white;
+    }
+    &.pending {
+      background: orange;
+      color: white;
+    }
+    &.late {
+      background: red;
+      color: white;
+    }
+  }
+}
