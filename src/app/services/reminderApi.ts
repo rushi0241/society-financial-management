@@ -4,7 +4,8 @@ import type { Reminder } from "../../types/reminder";
 export const reminderApi = createApi({
   reducerPath: "reminderApi",
   baseQuery: fetchBaseQuery({
-    baseUrl: "http://localhost:3000/",
+    baseUrl:
+      "https://my-json-server.typicode.com/rushi0241/society-financial-management/",
   }),
   endpoints: (builder) => ({
     getReminder: builder.query<Reminder[], void>({

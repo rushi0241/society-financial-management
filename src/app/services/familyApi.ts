@@ -4,7 +4,8 @@ import type { Family } from "../../types/family";
 export const familyApi = createApi({
   reducerPath: "familyApi",
   baseQuery: fetchBaseQuery({
-    baseUrl: "http://localhost:3000/",
+    baseUrl:
+      "https://my-json-server.typicode.com/rushi0241/society-financial-management/",
   }),
   endpoints: (builder) => ({
     getFamilies: builder.query<Family[], void>({
