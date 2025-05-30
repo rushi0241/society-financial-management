@@ -4,12 +4,13 @@ import type { Reminder } from "../../types/reminder";
 export const reminderApi = createApi({
   reducerPath: "reminderApi",
   baseQuery: fetchBaseQuery({
-    baseUrl:
-      "https://my-json-server.typicode.com/rushi0241/society-financial-management/",
+    baseUrl: "https://mocki.io/v1/",
   }),
   endpoints: (builder) => ({
     getReminder: builder.query<Reminder[], void>({
-      query: () => "/reminder",
+      query: () => "400ca316-64c9-434c-b285-92c371c7000c",
+      transformResponse: (response: { reminder: Reminder[] }) =>
+        response.reminder,
     }),
   }),
 });

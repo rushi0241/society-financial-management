@@ -4,12 +4,13 @@ import type { Family } from "../../types/family";
 export const familyApi = createApi({
   reducerPath: "familyApi",
   baseQuery: fetchBaseQuery({
-    baseUrl:
-      "https://my-json-server.typicode.com/rushi0241/society-financial-management/",
+    baseUrl: "https://mocki.io/v1/",
   }),
   endpoints: (builder) => ({
     getFamilies: builder.query<Family[], void>({
-      query: () => "/families_with_maintenance",
+      query: () => "400ca316-64c9-434c-b285-92c371c7000c",
+      transformResponse: (response: { families_with_maintenance: Family[] }) =>
+        response.families_with_maintenance,
     }),
   }),
 });
